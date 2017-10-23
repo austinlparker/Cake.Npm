@@ -286,7 +286,7 @@
                 resolvedPackageName = $"{packageName}@{versionOrTagValue}";
             }
 
-            if (!string.IsNullOrWhiteSpace(scope))
+                if (!string.IsNullOrWhiteSpace(scope))
             {
                 if (!scope.StartsWith("@"))
                 {
